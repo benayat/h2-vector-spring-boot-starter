@@ -17,9 +17,9 @@ To include this starter in your Spring Boot project, add the following dependenc
 
 ```xml
 <dependency>
-    <groupId>com.example</groupId>
+    <groupId>io.github.benayat</groupId>
     <artifactId>in-memory-h2vector-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>0.0.3</version>
 </dependency>
 ```
 ## Usage example
