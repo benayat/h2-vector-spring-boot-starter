@@ -1,1 +1,1 @@
-CREATE ALIAS IF NOT EXISTS cosine_similarity FOR 'org.benaya.ai.inmemoryh2vectorspringbootstarter.functions.VectorFunctions.cosineSimilarity'
+CREATE ALIAS IF NOT EXISTS cosine_similarity FOR 'functions.io.github.benayat.inmemoryh2vectorspringbootstarter.VectorFunctions.cosineSimilarity'

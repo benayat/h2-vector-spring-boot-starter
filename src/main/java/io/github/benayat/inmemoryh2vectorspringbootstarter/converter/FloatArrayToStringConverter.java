@@ -1,4 +1,4 @@
-package org.benaya.ai.inmemoryh2vectorspringbootstarter.converter;
+package io.github.benayat.inmemoryh2vectorspringbootstarter.converter;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

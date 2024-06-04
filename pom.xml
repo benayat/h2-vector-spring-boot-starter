@@ -8,14 +8,35 @@
         <version>3.3.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>org.benaya.ai</groupId>
+    <groupId>io.github.benayat</groupId>
     <artifactId>in-memory-h2vector-spring-boot-starter</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
-    <name>in-memory-h2vector-spring-boot-starter</name>
+    <version>0.0.3</version>
+    <name>${project.groupId}:${project.artifactId}</name>
     <description>in-memory-h2vector-spring-boot-starter</description>
+    <url>https://github.com/benayat/h2-vector-spring-boot-starter</url>
+    <packaging>jar</packaging>
     <properties>
         <java.version>22</java.version>
     </properties>
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>your-id</id>
+            <name>Benaya Trabelsi</name>
+            <email>benaya7@gmail.com</email>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:https://github.com/benayat/h2-vector-spring-boot-starter</connection>
+        <developerConnection>scm:git:https://github.com/benayat/h2-vector-spring-boot-starter</developerConnection>
+        <url>https://github.com/benayat/h2-vector-spring-boot-starter/tree/${project.scm.tag}</url>
+        <tag>master</tag>
+    </scm>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

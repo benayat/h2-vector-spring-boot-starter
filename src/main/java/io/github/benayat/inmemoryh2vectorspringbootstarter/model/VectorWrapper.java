@@ -1,4 +1,4 @@
-package org.benaya.ai.inmemoryh2vectorspringbootstarter.model;
+package io.github.benayat.inmemoryh2vectorspringbootstarter.model;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jdk.incubator.vector.FloatVector;
