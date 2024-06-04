@@ -5,7 +5,6 @@ All vector operations are performed with java vector-api, leveraging efficient S
 This starter simplifies the integration of vector-based operations into your Spring Boot applications.
 
 ## Features
-
 - **In-memory vector database** : Provides an in-memory H2 'extended' database for storing and querying vector fields.
 - **Simple integration**: Entities as usual - easily add vector fields to your entities using JPA.
 - **Vector Similarity Functions**: Provides pre-configured functions for vector similarity operations. currently supports only cosine similarity.
@@ -22,8 +21,8 @@ To include this starter in your Spring Boot project, add the following dependenc
     <version>0.0.3</version>
 </dependency>
 ```
-## Usage example
-To define a vector field, you need to annotate a field[] field with @LOB to store the vector as a byte array, and @Convert to use a convert from float[] to byte[] and vice-versa. 
+### Usage example
+To define a vector field, you need to annotate a float[] field with @LOB to store the vector as a byte array, and @Convert to use a convert from float[] to byte[] and vice-versa. 
 ```java
 @Getter
 @NoArgsConstructor
@@ -48,3 +47,11 @@ public interface TextRecordRepository extends JpaRepository<TextRecord, Long> {
     List<TextRecord> findTopKByVectorSimilarity(@Param("vector") byte[] vector, @Param("k") int k);
 }
 ```
+### License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/benayat/h2-vector-spring-boot-starter/blob/master/LICENSE.md) file for details.
+### Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+### Author
+Benaya Trabelsi.  
+### contact
+email: benaya7@gmail.com
