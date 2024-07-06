@@ -10,7 +10,7 @@
     </parent>
     <groupId>io.github.benayat</groupId>
     <artifactId>in-memory-h2vector-spring-boot-starter</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>in-memory-h2vector-spring-boot-starter</description>
     <url>https://github.com/benayat/h2-vector-spring-boot-starter</url>
@@ -26,7 +26,7 @@
     </licenses>
     <developers>
         <developer>
-            <id>your-id</id>
+            <id>benayat</id>
             <name>Benaya Trabelsi</name>
             <email>benaya7@gmail.com</email>
         </developer>

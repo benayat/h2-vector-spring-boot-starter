@@ -7,7 +7,7 @@ This starter simplifies the integration of vector-based operations into your Spr
 ## Features
 - **In-memory vector database** : Provides an in-memory H2 'extended' database for storing and querying vector fields.
 - **Simple integration**: Entities as usual - easily add vector fields to your entities using JPA.
-- **Vector Similarity Functions**: Provides pre-configured functions for vector similarity operations. currently supports only cosine similarity.
+- **Vector Similarity Functions**: Provides pre-configured functions for vector similarity operations. currently supports cosine, and l2 similarity.
 
 ## Requirements
 - Jdk 22+, with JVM arg `--add-modules=jdk.incubator.vector` added.
@@ -18,7 +18,7 @@ To include this starter in your Spring Boot project, add the following dependenc
 <dependency>
     <groupId>io.github.benayat</groupId>
     <artifactId>in-memory-h2vector-spring-boot-starter</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
 </dependency>
 ```
 ### Usage example
